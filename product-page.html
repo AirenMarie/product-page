@@ -6,5 +6,74 @@
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="product-page.css" />
   </head>
-  <body></body>
+  <body>
+    <header id="header">
+      <img id="header-img" />
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a class="nav-link" href="#myth-vs-fact" accesskey="m"
+              >Myth vs. Fact</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="#what-is-it" accesskey="w">What is it?</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#how-does-it-work" accesskey="h"
+              >How Does It Work?</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="#whats-the-price" accesskey="p"
+              >What's The Price?</a
+            >
+          </li>
+          <li><a class="nav-link" href="#get-started">Get Started</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="myth-vs-fact" aria aria-labelledby="myth-vs-fact">
+        <h2>Surely, you've heard these myths surrounding cat training...</h2>
+      </section>
+      <section id="what-is-it" aria-labelledby="what-is-it">
+        <h2>Introducing...Good Kitty Cat Training</h2>
+      </section>
+      <section id="how-does-it-work" aria-labelledby="how-does-it-work">
+        <h2>How does our program work?...</h2>
+      </section>
+      <section id="whats-the-price" aria-labelledby="whats-the-price">
+        <h2>Now you're wondering, "How much is this gonna cost me?"</h2>
+      </section>
+      <section 1d="get-started" aria-labelledby="get-started">
+        <form
+          id="form"
+          method="post"
+          action="https://www.freecodecamp.com/email-submit"
+        >
+          <h2>Get Started Today!</h2>
+          <div class="opt-in">
+            <label for="customer-name"
+              >Name
+              <input
+                id="customer-name"
+                type="text"
+                name="customer-name"
+                required
+            /></label>
+            <label for="customer-email"
+              >E-mail Address
+              <input
+                id="customer-email"
+                type="email"
+                name="customer-email"
+                required
+            /></label>
+            <input id="submit" type="submit" value="Submit" class="btn" />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
